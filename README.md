@@ -49,7 +49,7 @@ If you have any question, please email `yangcao.cs@gmail.com`.
 
 Appreciate the following works for their great contributions:
 
-[VGGT](https://github.com/facebookresearch/vggt): Inspire our study for Sensor-Geometry-Free 3DDet
+[VGGT](https://github.com/facebookresearch/vggt): Inspire our study for Sensor-Geometry-Free 3DDet.
 
 [MVSDet](https://github.com/Pixie8888/MVSDet) and [NeRF-Det](https://github.com/facebookresearch/NeRF-Det): Serves as the
 foundation for our codes.
