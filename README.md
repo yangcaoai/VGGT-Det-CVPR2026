@@ -5,7 +5,7 @@
 </p>
 
 <!-- > [[Paper](https://arxiv.org/abs/xxx)] <br> -->
-> [Yang Cao*](https://yangcaoai.github.io/), [Feize Wu*](https://feizewu.github.io/), [Dave Zhenyu Chen](https://daveredrum.github.io/), [Yingji Zhong](https://zhongyingji.github.io/), [Lanqing Hong](https://racheltechie.github.io/), [Dan Xu](https://www.danxurgb.net) <br>
+> [Yang Cao*](https://yangcaoai.github.io/), [Feize Wu*](https://feizewu.github.io/), [Dave Zhenyu Chen](https://daveredrum.github.io/), [Yingji Zhong](https://zhongyingji.github.io/), [Lanqing Hong](https://racheltechie.github.io/), [Dan Xu#](https://www.danxurgb.net) <br>
 > The Hong Kong University of Science and Technology<br>
 > Huawei 
 > Sun Yat-Sen University
