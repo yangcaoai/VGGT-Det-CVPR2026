@@ -17,17 +17,17 @@
 
 ## Motivation
 <!-- <img src="assets/teaser.png"> -->
-<div align="center"> <img src="assets/teaser.png" width="70%"> </div>
+<div align="center"> <img src="assets/teaser.png" width="50%"> </div>
 
 ## Framework 
 <img src="assets/method_1.png">
 
-## Computation flow of Attention-Guided Query Generation 
+<!-- ## Computation flow of Attention-Guided Query Generation  -->
 <!-- <img src="assets/method_2.png"> -->
-<div align="center"> <img src="assets/method_2.png" width="70%"> </div>
+<!-- <div align="center"> <img src="assets/method_2.png" width="70%"> </div> -->
 
 ## Visualization of Attention-Guided Query Generation 
-<img src="assets/AG.png">
+<div align="center"> <img src="assets/AG.png" width="90%"> </div>
 
 
 ## :scroll: BibTeX
