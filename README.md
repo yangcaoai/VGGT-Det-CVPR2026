@@ -26,6 +26,9 @@
 <!-- <img src="assets/method_2.png"> -->
 <div align="center"> <img src="assets/method_2.png" width="70%"> </div>
 
+## Visualization of Attention-Guided Query Generation 
+<img src="assets/AG.png">
+
 
 ## :scroll: BibTeX
 If VGGT-Det is helpful, please cite:
