@@ -1,5 +1,5 @@
 
-## :book: VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free \\ Multi-View Indoor 3D Object Detection (CVPR2026)
+## :book: VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection (CVPR2026)
 <p align="center">
   <small> 🔥Please star VGGT-Det ⭐ and share it. Thanks🔥 </small>
 </p>
@@ -24,9 +24,6 @@
 ## Computation flow of Attention-Guided Query Generation 
 <img src="assets/method_2.png">
 
-## Visualization of Attention-Guided Query Generation 
-<img src="assets/method_2.png">
-
 
 ## :scroll: BibTeX
 If CoDA is helpful, please cite:
@@ -45,7 +42,7 @@ If you have any question, please email `yangcao.cs@gmail.com`.
 
 ## :scroll: Sincere Acknowledgement
 
-We would like to express our gratitude to the following works:
+We would like to express our gratitude to the following works for their great contributions:
 
 [VGGT](https://github.com/facebookresearch/vggt): Inspire our study for Sensor-Geometry-Free 3DDet
 [MVSDet](https://github.com/Pixie8888/MVSDet) and [NeRF-Det](https://github.com/facebookresearch/NeRF-Det): Serves as the
