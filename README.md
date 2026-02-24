@@ -17,18 +17,18 @@
 
 ## Motivation
 <!-- <img src="assets/teaser.png"> -->
-<div align="center"> <img src="assets/teaser.png" width="80%"> </div>
+<div align="center"> <img src="assets/teaser.png" width="70%"> </div>
 
 ## Framework 
 <img src="assets/method_1.png">
 
 ## Computation flow of Attention-Guided Query Generation 
 <!-- <img src="assets/method_2.png"> -->
-<div align="center"> <img src="assets/method_2.png" width="75%"> </div>
+<div align="center"> <img src="assets/method_2.png" width="70%"> </div>
 
 
 ## :scroll: BibTeX
-If CoDA is helpful, please cite:
+If VGGT-Det is helpful, please cite:
 ```
 @inproceedings{cao2026vggtdet,
   title={VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection},
