@@ -24,7 +24,7 @@
 
 ## Computation flow of Attention-Guided Query Generation 
 <!-- <img src="assets/method_2.png"> -->
-<div align="center"> <img src="assets/method_2.png" width="80%"> </div>
+<div align="center"> <img src="assets/method_2.png" width="75%"> </div>
 
 
 ## :scroll: BibTeX
