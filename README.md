@@ -16,20 +16,22 @@
 &#9745; Our VGGT-Det is accepted by CVPR2026. The paper and codes will be released soon.
 
 ## Motivation
-<img src="assets/teaser.png">
+<!-- <img src="assets/teaser.png"> -->
+<div align="center"> <img src="assets/teaser.png" width="80%"> </div>
 
 ## Framework 
 <img src="assets/method_1.png">
 
 ## Computation flow of Attention-Guided Query Generation 
-<img src="assets/method_2.png">
+<!-- <img src="assets/method_2.png"> -->
+<div align="center"> <img src="assets/method_2.png" width="80%"> </div>
 
 
 ## :scroll: BibTeX
 If CoDA is helpful, please cite:
 ```
 @inproceedings{cao2026vggtdet,
-  title={VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free \\ Multi-View Indoor 3D Object Detection},
+  title={VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection},
   author={Cao, Yang and Wu, Feize and Dave Chen, Zhenyu and Zhong, Yingji and Hong, Lanqing and Xu, Dan},
   booktitle={CVPR},
   year={2026}
@@ -42,8 +44,9 @@ If you have any question, please email `yangcao.cs@gmail.com`.
 
 ## :scroll: Sincere Acknowledgement
 
-We would like to express our gratitude to the following works for their great contributions:
+Appreciate the following works for their great contributions:
 
 [VGGT](https://github.com/facebookresearch/vggt): Inspire our study for Sensor-Geometry-Free 3DDet
+
 [MVSDet](https://github.com/Pixie8888/MVSDet) and [NeRF-Det](https://github.com/facebookresearch/NeRF-Det): Serves as the
 foundation for our codes.
