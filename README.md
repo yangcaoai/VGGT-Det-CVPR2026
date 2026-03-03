@@ -15,7 +15,7 @@
 
 &#9745; The paper is released at [Hugging Face](https://huggingface.co/papers/2603.00912) and [Arxiv](https://arxiv.org/abs/2603.00912).
 
-&#9745; Our VGGT-Det is accepted by CVPR2026. The paper and codes will be released soon.
+&#9745; Our VGGT-Det is accepted by CVPR 2026. The paper and codes will be released soon.
 
 ## Motivation
 <!-- <img src="assets/teaser.png"> -->
