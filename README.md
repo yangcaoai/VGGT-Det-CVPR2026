@@ -53,5 +53,5 @@ Appreciate the following works for their great contributions:
 
 [VGGT](https://github.com/facebookresearch/vggt): Inspire our study for Sensor-Geometry-Free 3DDet.
 
-[MVSDet](https://github.com/Pixie8888/MVSDet), [NeRF-Det](https://github.com/facebookresearch/NeRF-Det) and [MMDet3D](https://github.com/open-mmlab/mmdetection3d): Serves as the
+[MVSDet](https://github.com/Pixie8888/MVSDet), [NeRF-Det](https://github.com/facebookresearch/NeRF-Det) and [MMDet3D](https://github.com/open-mmlab/mmdetection3d): Serve as the
 foundation for our codes.
