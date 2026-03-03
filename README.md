@@ -1,5 +1,5 @@
 
-## :book: VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection (CVPR2026)
+## :book: VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection (CVPR 2026)
 <p align="center">
   <small> 🔥Please star VGGT-Det ⭐ and share it. Thanks🔥 </small>
 </p>
