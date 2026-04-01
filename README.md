@@ -12,9 +12,11 @@
 
 :triangular_flag_on_post: **Updates**  
 
-&#9744; We are preparing and uploading the datasets, and cleaning the code, with a planned release in April.
+&#9744; We are preparing and uploading the ARKitScenes datasets, and cleaning our code, with a planned release in April.
 
-&#9745; The pretrained models and training logs are released at [Hugging Face](https://huggingface.co/YangCaoCS/VGGT-Det-Pretrained-Models). 
+&#9745; The processed ScanNet datasets are released at [here](https://huggingface.co/datasets/YangCaoCS/ScanNet_processed).
+
+&#9745; The pretrained models and training logs are released at [here](https://huggingface.co/YangCaoCS/VGGT-Det-Pretrained-Models). 
 
 &#9745; The paper is released at [Hugging Face](https://huggingface.co/papers/2603.00912) and [Arxiv](https://arxiv.org/abs/2603.00912).
 
