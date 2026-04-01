@@ -60,3 +60,5 @@ Appreciate the following works for their great contributions:
 
 [MVSDet](https://github.com/Pixie8888/MVSDet), [NeRF-Det](https://github.com/facebookresearch/NeRF-Det) and [MMDet3D](https://github.com/open-mmlab/mmdetection3d): Serve as the
 foundation for our codes.
+
+[ScanNet](http://www.scan-net.org/) and [ARKitScenes](https://github.com/apple/ARKitScenes): Serve as the datasets for training and evaluation.
