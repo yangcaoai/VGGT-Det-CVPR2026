@@ -12,7 +12,7 @@
 
 :triangular_flag_on_post: **Updates**  
 
-&#9744; We are cleaning our code and plan to release it in April.
+&#9745; The training and testing codes on Scannet are released.
 
 &#9745; The pretrained models and training logs are released at [here](https://huggingface.co/YangCaoCS/VGGT-Det-Pretrained-Models). 
 
@@ -37,6 +37,31 @@
 
 ## Visualization of Attention-Guided Query Generation 
 <div align="center"> <img src="assets/AG.png" width="90%"> </div>
+
+## Installation
+- Install [mmdetection3d](https://mmdetection3d.readthedocs.io/en/latest/get_started.html)
+- Install torch-scatter: ```pip install torch-scatter==2.1.2 -f https://data.pyg.org/whl/torch-2.1.0%2Bcu118.html```
+
+## Dataset preparation
+
+Please download the datasets from [here](https://huggingface.co/datasets/YangCaoCS/ScanNet_processed).
+
+Then run for the downloaded *.tar file:
+```
+bash data_preparation.sh
+```
+
+## Evaluation
+Download the pretrained models [here](https://huggingface.co/YangCaoCS/VGGT-Det-Pretrained-Models).
+Then run:
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash tools/dist_test.sh projects/VGGTDet/config/vggtdet_scannet.py VGGT-Det-Pretrained-Models/ScanNet/epoch_180.pth
+```
+
+## Training
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash tools/dist_train.sh projects/VGGTDet/config/vggtdet_scannet.py 8 
+```
 
 
 ## :scroll: BibTeX
