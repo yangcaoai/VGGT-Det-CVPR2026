@@ -55,7 +55,7 @@ bash data_preparation.sh
 Download the pretrained models [here](https://huggingface.co/YangCaoCS/VGGT-Det-Pretrained-Models).
 Then run:
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash tools/dist_test.sh projects/VGGTDet/config/vggtdet_scannet.py VGGT-Det-Pretrained-Models/ScanNet/epoch_180.pth
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash tools/dist_test.sh projects/VGGTDet/config/vggtdet_scannet.py VGGT-Det-Pretrained-Models/ScanNet/epoch_180.pth 8
 ```
 
 ## Training
