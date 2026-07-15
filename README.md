@@ -1,0 +1,94 @@
+
+## :book: VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection (CVPR 2026)
+<p align="center">
+  <small> 🔥Please star VGGT-Det ⭐ and share it. Thanks🔥 </small>
+</p>
+
+<!-- > [[Paper](https://arxiv.org/abs/xxx)] <br> -->
+> [Yang Cao*](https://yangcaoai.github.io/), [Feize Wu*](https://feizewu.github.io/), [Dave Zhenyu Chen](https://daveredrum.github.io/), [Yingji Zhong](https://zhongyingji.github.io/), [Lanqing Hong](https://racheltechie.github.io/), [Dan Xu#](https://www.danxurgb.net) <br>
+> The Hong Kong University of Science and Technology<br>
+> Huawei 
+> Sun Yat-Sen University
+
+:triangular_flag_on_post: **Updates**  
+
+
+&#9745; The training and testing codes on ARKitScenes are released on git branch 'arkit'.
+
+&#9745; The training and testing codes on Scannet are released on git branch 'main'.
+
+&#9745; The pretrained models and training logs are released at [here](https://huggingface.co/YangCaoCS/VGGT-Det-Pretrained-Models). 
+
+&#9745; The processed ARKitScenes datasets are released at [here](https://huggingface.co/datasets/YangCaoCS/ARKitScenes_processed).
+
+&#9745; The processed ScanNet datasets are released at [here](https://huggingface.co/datasets/YangCaoCS/ScanNet_processed).
+
+&#9745; The paper is released at [Hugging Face](https://huggingface.co/papers/2603.00912) and [Arxiv](https://arxiv.org/abs/2603.00912).
+
+&#9745; Our VGGT-Det is accepted by CVPR 2026. The paper and codes will be released soon.
+
+## Motivation
+<!-- <img src="assets/teaser.png"> -->
+<div align="center"> <img src="assets/teaser.png" width="50%"> </div>
+
+## Framework 
+<img src="assets/method_1.png">
+
+<!-- ## Computation flow of Attention-Guided Query Generation  -->
+<!-- <img src="assets/method_2.png"> -->
+<!-- <div align="center"> <img src="assets/method_2.png" width="70%"> </div> -->
+
+## Visualization of Attention-Guided Query Generation 
+<div align="center"> <img src="assets/AG.png" width="90%"> </div>
+
+## Installation
+- Install [mmdetection3d](https://mmdetection3d.readthedocs.io/en/latest/get_started.html)
+- Install torch-scatter: ```pip install torch-scatter==2.1.2 -f https://data.pyg.org/whl/torch-2.1.0%2Bcu118.html```
+
+## Dataset preparation
+
+Please download the datasets from [here](https://huggingface.co/datasets/YangCaoCS/ScanNet_processed).
+
+Then run for the downloaded *.tar file:
+```
+bash data_preparation.sh
+```
+
+## Evaluation
+Download the pretrained models [here](https://huggingface.co/YangCaoCS/VGGT-Det-Pretrained-Models).
+Then run:
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash tools/dist_test.sh projects/VGGTDet/config/vggt_arkit.py VGGT-Det-Pretrained-Models/ARKitScenes/epoch_184.pth 8
+```
+
+## Training
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash tools/dist_train.sh projects/VGGTDet/config/vggt_arkit.py 8 
+```
+
+
+## :scroll: BibTeX
+If VGGT-Det is helpful, please cite:
+```
+@inproceedings{cao2026vggtdet,
+  title={VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection},
+  author={Cao, Yang and Wu, Feize and Dave Chen, Zhenyu and Zhong, Yingji and Hong, Lanqing and Xu, Dan},
+  booktitle={CVPR},
+  year={2026}
+}
+```
+
+## :e-mail: Contact
+
+If you have any question, please email `yangcao.cs@gmail.com`.
+
+## :scroll: Sincere Acknowledgement
+
+Appreciate the following works for their great contributions:
+
+[VGGT](https://github.com/facebookresearch/vggt): Inspire our study for Sensor-Geometry-Free 3DDet.
+
+[MVSDet](https://github.com/Pixie8888/MVSDet), [NeRF-Det](https://github.com/facebookresearch/NeRF-Det) and [MMDet3D](https://github.com/open-mmlab/mmdetection3d): Serve as the
+foundation for our codes.
+
+[ScanNet](http://www.scan-net.org/) and [ARKitScenes](https://github.com/apple/ARKitScenes): Serve as the datasets for training and evaluation.
