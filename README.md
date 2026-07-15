@@ -47,7 +47,7 @@
 
 ## Dataset preparation
 
-Please download the datasets from [here](https://huggingface.co/datasets/YangCaoCS/ScanNet_processed).
+Please download the datasets from [here](https://huggingface.co/datasets/YangCaoCS/ARKitScenes_processed).
 
 Then run for the downloaded *.tar file:
 ```
