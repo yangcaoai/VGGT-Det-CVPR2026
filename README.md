@@ -71,7 +71,7 @@ If VGGT-Det is helpful, please cite:
 ```
 @inproceedings{cao2026vggtdet,
   title={VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection},
-  author={Cao, Yang and Wu, Feize and Dave Chen, Zhenyu and Zhong, Yingji and Hong, Lanqing and Xu, Dan},
+  author={Cao, Yang and Wu, Feize and Chen, Dave Zhenyu and Zhong, Yingji and Hong, Lanqing and Xu, Dan},
   booktitle={CVPR},
   year={2026}
 }
